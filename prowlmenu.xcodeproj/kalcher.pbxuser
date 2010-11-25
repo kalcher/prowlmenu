@@ -216,6 +216,16 @@
 		isa = PBXBookmark;
 		fRef = 1B48BC21129425FF00364E80 /* iphone.png */;
 	};
+	1BAEEF99129F163A00023EFD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* prowlmenuAppDelegate.m */;
+		name = "prowlmenuAppDelegate.m: 110";
+		rLen = 0;
+		rLoc = 4338;
+		rType = 0;
+		vrLen = 1791;
+		vrLoc = 4025;
+	};
 	1BC474CA129DC2F40019956E /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 089C165DFE840E0CC02AAC07 /* English */;
@@ -253,16 +263,6 @@
 		rType = 0;
 		vrLen = 843;
 		vrLoc = 0;
-	};
-	1BC474E5129E86600019956E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 256AC3D90F4B6AC300CF3369 /* prowlmenuAppDelegate.m */;
-		name = "prowlmenuAppDelegate.m: 110";
-		rLen = 0;
-		rLoc = 4338;
-		rType = 0;
-		vrLen = 2258;
-		vrLoc = 4025;
 	};
 	256AC3D80F4B6AC300CF3369 /* prowlmenuAppDelegate.h */ = {
 		uiCtxt = {
@@ -343,7 +343,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					832,
+					862,
 					60,
 					20,
 					48,
@@ -360,8 +360,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 312414877;
-			PBXWorkspaceStateSaveDate = 312414877;
+			PBXPerProjectTemplateStateSaveDate = 312415328;
+			PBXWorkspaceStateSaveDate = 312415328;
 		};
 		perUserProjectItems = {
 			1B48BCA9129462BF00364E80 /* PlistBookmark */ = 1B48BCA9129462BF00364E80 /* PlistBookmark */;
@@ -374,10 +374,10 @@
 			1B8D0637129C58EE00ABDCF9 /* PBXTextBookmark */ = 1B8D0637129C58EE00ABDCF9 /* PBXTextBookmark */;
 			1B8D063B129C58EE00ABDCF9 /* PBXBookmark */ = 1B8D063B129C58EE00ABDCF9 /* PBXBookmark */;
 			1B8D063C129C58EE00ABDCF9 /* PBXBookmark */ = 1B8D063C129C58EE00ABDCF9 /* PBXBookmark */;
+			1BAEEF99129F163A00023EFD /* PBXTextBookmark */ = 1BAEEF99129F163A00023EFD /* PBXTextBookmark */;
 			1BC474CA129DC2F40019956E /* PBXTextBookmark */ = 1BC474CA129DC2F40019956E /* PBXTextBookmark */;
 			1BC474DC129DC4FC0019956E /* PBXTextBookmark */ = 1BC474DC129DC4FC0019956E /* PBXTextBookmark */;
 			1BC474E3129E86600019956E /* PBXTextBookmark */ = 1BC474E3129E86600019956E /* PBXTextBookmark */;
-			1BC474E5129E86600019956E /* PBXTextBookmark */ = 1BC474E5129E86600019956E /* PBXTextBookmark */;
 		};
 		sourceControlManager = 1B48BC16129424CF00364E80 /* Source Control */;
 		userBuildSettings = {

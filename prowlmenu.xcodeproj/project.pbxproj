@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1B48BC22129425FF00364E80 /* iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B48BC21129425FF00364E80 /* iphone.png */; };
-		1B48BCA5129462A400364E80 /* BGHUDAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B48BCA4129462A400364E80 /* BGHUDAppKit.framework */; };
-		1B48BCBA129462F500364E80 /* BGHUDAppKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1B48BCA4129462A400364E80 /* BGHUDAppKit.framework */; };
 		1B48BD251294675F00364E80 /* iphone_large.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B48BD241294675F00364E80 /* iphone_large.png */; };
 		1B48BD3B1294759600364E80 /* credits.html in Resources */ = {isa = PBXBuildFile; fileRef = 1B48BD3A1294759600364E80 /* credits.html */; };
 		1B48BE371294900000364E80 /* license.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1B48BE361294900000364E80 /* license.txt */; };
@@ -20,6 +18,8 @@
 		1B48C1B21295F68600364E80 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B48C1B11295F68600364E80 /* Growl.framework */; };
 		1B48C1BA1295F69E00364E80 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1B48C1B11295F68600364E80 /* Growl.framework */; };
 		1B48C1E11295FB9200364E80 /* Growl Registration Ticket.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = 1B48C1E01295FB9200364E80 /* Growl Registration Ticket.growlRegDict */; };
+		1BAEEF4E129F151C00023EFD /* BGHUDAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAEEF4D129F151C00023EFD /* BGHUDAppKit.framework */; };
+		1BAEEF8B129F15AC00023EFD /* BGHUDAppKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1BAEEF4D129F151C00023EFD /* BGHUDAppKit.framework */; };
 		1BC47494129D23FB0019956E /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 1BC47493129D23FB0019956E /* dsa_pub.pem */; };
 		1BC474D7129DC4930019956E /* 3rdparty.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1BC474D6129DC4930019956E /* 3rdparty.rtf */; };
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
@@ -36,9 +36,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				1BAEEF8B129F15AC00023EFD /* BGHUDAppKit.framework in CopyFiles */,
 				1B48C1BA1295F69E00364E80 /* Growl.framework in CopyFiles */,
 				1B48C0A612955E0800364E80 /* Sparkle.framework in CopyFiles */,
-				1B48BCBA129462F500364E80 /* BGHUDAppKit.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,7 +49,6 @@
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		1B48BC21129425FF00364E80 /* iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone.png; sourceTree = "<group>"; };
-		1B48BCA4129462A400364E80 /* BGHUDAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BGHUDAppKit.framework; path = "/Users/kalcher/Downloads/binarygod-BGHUDAppKit-8a706f1/build/Release/BGHUDAppKit.framework"; sourceTree = "<absolute>"; };
 		1B48BD241294675F00364E80 /* iphone_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone_large.png; sourceTree = "<group>"; };
 		1B48BD3A1294759600364E80 /* credits.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = credits.html; sourceTree = "<group>"; };
 		1B48BE361294900000364E80 /* license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
@@ -58,6 +57,7 @@
 		1B48C0EB1295DB2200364E80 /* prowlmenu.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.sdef; path = prowlmenu.sdef; sourceTree = "<group>"; };
 		1B48C1B11295F68600364E80 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Growl.framework; sourceTree = "<group>"; };
 		1B48C1E01295FB9200364E80 /* Growl Registration Ticket.growlRegDict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Growl Registration Ticket.growlRegDict"; sourceTree = "<group>"; };
+		1BAEEF4D129F151C00023EFD /* BGHUDAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BGHUDAppKit.framework; sourceTree = "<group>"; };
 		1BC47493129D23FB0019956E /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 		1BC474D6129DC4930019956E /* 3rdparty.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = 3rdparty.rtf; sourceTree = "<group>"; };
 		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -77,9 +77,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
-				1B48BCA5129462A400364E80 /* BGHUDAppKit.framework in Frameworks */,
 				1B48C09712955D9800364E80 /* Sparkle.framework in Frameworks */,
 				1B48C1B21295F68600364E80 /* Growl.framework in Frameworks */,
+				1BAEEF4E129F151C00023EFD /* BGHUDAppKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1B48BCA4129462A400364E80 /* BGHUDAppKit.framework */,
+				1BAEEF4D129F151C00023EFD /* BGHUDAppKit.framework */,
 				1B48C1B11295F68600364E80 /* Growl.framework */,
 				1B48C09612955D9800364E80 /* Sparkle.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
