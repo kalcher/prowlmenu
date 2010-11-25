@@ -323,7 +323,6 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../Downloads/binarygod-BGHUDAppKit-8a706f1/build/Release\"",
 					"\"$(SRCROOT)\"",
 				);
 				GCC_MODEL_TUNING = G5;
