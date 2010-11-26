@@ -33,7 +33,7 @@
             <enclosure url="http://prowlmenu.googlecode.com/files/prowlmenu-0.1.dmg" 
 					   sparkle:version="0.1" 
 					   sparkle:dsaSignature="MCwCFHrEmZDx8lWY57hBPAPjAsa6YHddAhRZeKXHMFqVLrBHEJ70cDY9vChYwA=="
-					   length="4765696" type="application/octet-stream" />
+					   length="4765700" type="application/octet-stream" />
          </item>
    </channel>
 </rss>
