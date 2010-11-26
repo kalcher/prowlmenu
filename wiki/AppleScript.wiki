@@ -1,5 +1,5 @@
 #summary Description of the AppleScript interface
-#labels Phase-Implementation
+#labels Phase-Implementation,Featured
 
 == !AppleScript interface ==
 
