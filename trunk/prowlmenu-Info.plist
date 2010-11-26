@@ -11,7 +11,7 @@
 	<key>SUScheduledCheckInterval</key>
 	<string>172800</string>
 	<key>SUFeedURL</key>
-	<string>http://prowlmenu.googlecode.com/files/prowlmenu-appcast.xml</string>
+	<string>http://prowlmenu.googlecode.com/svn/trunk/prowlmenu-appcast.xml</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
