@@ -181,8 +181,10 @@
 															  NULL,
 															  kCFStringEncodingUTF8));
 	
+	// try to create an URL from the message string
 	NSURL *url = [NSURL URLWithString:escapedURLString];
-		
+
+	// only fill in the url paramter if an URL was "detected"
 	if(url!=nil) {
 		[params addObject:@"&url="];
 		[params addObject:url];

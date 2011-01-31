@@ -18,6 +18,7 @@
 		1B48C1B21295F68600364E80 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B48C1B11295F68600364E80 /* Growl.framework */; };
 		1B48C1BA1295F69E00364E80 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1B48C1B11295F68600364E80 /* Growl.framework */; };
 		1B48C1E11295FB9200364E80 /* Growl Registration Ticket.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = 1B48C1E01295FB9200364E80 /* Growl Registration Ticket.growlRegDict */; };
+		1B56C6ED12F71E3D00EE2D39 /* newMenuIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B56C6EC12F71E3D00EE2D39 /* newMenuIcon.png */; };
 		1BAEEF4E129F151C00023EFD /* BGHUDAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAEEF4D129F151C00023EFD /* BGHUDAppKit.framework */; };
 		1BAEEF8B129F15AC00023EFD /* BGHUDAppKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1BAEEF4D129F151C00023EFD /* BGHUDAppKit.framework */; };
 		1BC47494129D23FB0019956E /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 1BC47493129D23FB0019956E /* dsa_pub.pem */; };
@@ -57,6 +58,7 @@
 		1B48C0EB1295DB2200364E80 /* prowlmenu.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.sdef; path = prowlmenu.sdef; sourceTree = "<group>"; };
 		1B48C1B11295F68600364E80 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Growl.framework; sourceTree = "<group>"; };
 		1B48C1E01295FB9200364E80 /* Growl Registration Ticket.growlRegDict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Growl Registration Ticket.growlRegDict"; sourceTree = "<group>"; };
+		1B56C6EC12F71E3D00EE2D39 /* newMenuIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newMenuIcon.png; sourceTree = "<group>"; };
 		1BAEEF4D129F151C00023EFD /* BGHUDAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BGHUDAppKit.framework; sourceTree = "<group>"; };
 		1BC47493129D23FB0019956E /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 		1BC474D6129DC4930019956E /* 3rdparty.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = 3rdparty.rtf; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1B56C6EC12F71E3D00EE2D39 /* newMenuIcon.png */,
 				1BC474D6129DC4930019956E /* 3rdparty.rtf */,
 				1BC47493129D23FB0019956E /* dsa_pub.pem */,
 				1B48C1E01295FB9200364E80 /* Growl Registration Ticket.growlRegDict */,
@@ -239,6 +242,7 @@
 				1B48C1E11295FB9200364E80 /* Growl Registration Ticket.growlRegDict in Resources */,
 				1BC47494129D23FB0019956E /* dsa_pub.pem in Resources */,
 				1BC474D7129DC4930019956E /* 3rdparty.rtf in Resources */,
+				1B56C6ED12F71E3D00EE2D39 /* newMenuIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
