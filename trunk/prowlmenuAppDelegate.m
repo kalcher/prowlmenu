@@ -166,12 +166,27 @@
 	}
 	
 	// assemble the paramter array ...
-	NSArray *params = [ NSArray arrayWithObjects:@"apikey=", [[[NSUserDefaultsController sharedUserDefaultsController] values] valueForKey:@"apikey"],
+	NSMutableArray *params = [ NSMutableArray arrayWithObjects:@"apikey=", [[[NSUserDefaultsController sharedUserDefaultsController] values] valueForKey:@"apikey"],
 					   @"&application=prowlMenu",
 					   @"&event=Info",
 					   @"&description=",[self urlEncodeString:message], 
 					   @"&priority=",[[[NSUserDefaultsController sharedUserDefaultsController] values] valueForKey:@"prio"], 
+					   // @"&url=",[[NSURL URLWithString:[self urlEncodeString:message]] absoluteString], 
 					   nil ];
+
+
+	NSString *escapedURLString = NSMakeCollectable(CFURLCreateStringByAddingPercentEscapes(NULL,
+															  (CFStringRef)message,
+															  (CFStringRef)@"%+# ",	// Characters to leave unescaped
+															  NULL,
+															  kCFStringEncodingUTF8));
+	
+	NSURL *url = [NSURL URLWithString:escapedURLString];
+		
+	if(url!=nil) {
+		[params addObject:@"&url="];
+		[params addObject:url];
+	}
 	
 	// ... and convert it into a string
 	NSString *post = [params componentsJoinedByString:@"" ];
@@ -181,7 +196,7 @@
 	NSString *postLength = [NSString stringWithFormat:@"%d", [postData length]];
 	
 	NSMutableURLRequest *request = [[[NSMutableURLRequest alloc] init] autorelease];
-	[request setURL:[NSURL URLWithString:@"https://prowl.weks.net/publicapi/add"]];
+	[request setURL:[NSURL URLWithString:@"https://api.prowlapp.com/publicapi/add"]];
 	[request setHTTPMethod:@"POST"];
 	[request setValue:postLength forHTTPHeaderField:@"Content-Length"];
 	[request setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
@@ -277,7 +292,7 @@
 	// it is better to write the value explicitely here
 	[[[NSUserDefaultsController sharedUserDefaultsController] values] setValue:[apikeyentry stringValue] forKey:@"apikey"];
 
-	NSArray *urlstring = [ NSArray arrayWithObjects:@"https://prowl.weks.net/publicapi/verify?",
+	NSArray *urlstring = [ NSArray arrayWithObjects:@"https://api.prowlapp.com/publicapi/verify?",
 						   @"apikey=", [[[NSUserDefaultsController sharedUserDefaultsController] values] valueForKey:@"apikey"],
 						   nil ];
 	
