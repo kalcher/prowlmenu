@@ -202,24 +202,24 @@
 			<key>Content</key>
 			<dict>
 				<key>PBXProjectModuleGUID</key>
-				<string>1B56C66812F6F8EF00EE2D39</string>
+				<string>1B56C6D912F7072900EE2D39</string>
 				<key>PBXProjectModuleLabel</key>
-				<string>prowlmenuAppDelegate.m</string>
+				<string>credits.html</string>
 				<key>PBXSplitModuleInNavigatorKey</key>
 				<dict>
 					<key>Split0</key>
 					<dict>
 						<key>PBXProjectModuleGUID</key>
-						<string>1B56C66912F6F8EF00EE2D39</string>
+						<string>1B56C6DA12F7072900EE2D39</string>
 						<key>PBXProjectModuleLabel</key>
-						<string>prowlmenuAppDelegate.m</string>
+						<string>credits.html</string>
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>1B56C6AF12F7006100EE2D39</string>
+						<string>1B56C6E412F7073B00EE2D39</string>
 						<key>history</key>
 						<array>
-							<string>1B56C66312F6F88B00EE2D39</string>
+							<string>1B56C6D112F7071400EE2D39</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -231,11 +231,11 @@
 			<key>Geometry</key>
 			<dict>
 				<key>Frame</key>
-				<string>{{0, 20}, {1257, 824}}</string>
+				<string>{{0, 20}, {1008, 649}}</string>
 				<key>PBXModuleWindowStatusBarHidden2</key>
 				<false/>
 				<key>RubberWindowFrame</key>
-				<string>553 178 1257 865 0 0 1920 1178 </string>
+				<string>313 338 1008 690 0 0 1920 1178 </string>
 			</dict>
 		</dict>
 	</array>
@@ -316,7 +316,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>0</integer>
+									<integer>30</integer>
+									<integer>29</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -355,7 +356,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>prowlmenuAppDelegate.m</string>
+								<string>InfoPlist.strings</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -363,26 +364,26 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>prowlmenuAppDelegate.m</string>
+										<string>InfoPlist.strings</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>1B56C6AE12F7006100EE2D39</string>
+										<string>1B56C6E312F7073B00EE2D39</string>
 										<key>history</key>
 										<array>
 											<string>1B48BCA9129462BF00364E80</string>
 											<string>1B48C255129604CE00364E80</string>
 											<string>1B8D0634129C58EE00ABDCF9</string>
 											<string>1B8D0635129C58EE00ABDCF9</string>
-											<string>1BC474CA129DC2F40019956E</string>
 											<string>1BC474DC129DC4FC0019956E</string>
-											<string>1BC474E3129E86600019956E</string>
 											<string>1BCCF78712B7D30C0068D95C</string>
 											<string>1BCCF78812B7D30C0068D95C</string>
 											<string>1BCCF78912B7D30C0068D95C</string>
 											<string>1BCCF78A12B7D30C0068D95C</string>
 											<string>1B56C66412F6F8EF00EE2D39</string>
-											<string>1B56C69412F6FD5A00EE2D39</string>
+											<string>1B56C6CE12F706B600EE2D39</string>
+											<string>1B56C6CF12F706B600EE2D39</string>
+											<string>1BC474CA129DC2F40019956E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -582,14 +583,14 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1B56C6B012F7006100EE2D39</string>
+		<string>1B56C6E512F7073B00EE2D39</string>
 		<string>1B56C67812F6FA8100EE2D39</string>
 		<string>1B56C67912F6FA8100EE2D39</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>1B48BC7412945E8F00364E80</string>
-		<string>/Users/kalcher/Documents/prowlmenu-trunk/prowlmenu.xcodeproj</string>
 		<string>1C78EAAD065D492600B07095</string>
-		<string>1B56C66812F6F8EF00EE2D39</string>
+		<string>/Users/kalcher/Documents/prowlmenu-trunk/prowlmenu.xcodeproj</string>
+		<string>1B56C6D912F7072900EE2D39</string>
 	</array>
 	<key>WindowString</key>
 	<string>476 161 1349 899 0 0 1920 1178 </string>
