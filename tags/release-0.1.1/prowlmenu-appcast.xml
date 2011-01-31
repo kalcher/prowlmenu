@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <channel>
+      <title>prowlmenu Changelog</title>
+      <link>http://prowlmenu.googlecode.com/files/prowlmenu-appcast.xml</link>
+      <description>prowlmenu</description>
+      <language>en</language>
+      <item>
+         <title>Version 0.1.1</title>
+			    <description><![CDATA[
+					<table style="border: dotted 1px #ccc;" width="100%" border="0" cellspacing="0" cellpadding="0">
+					   <tr>
+					        <td style="background-color: #e6edff;margin: -3px" colspan="2">
+					                <h3>Minor update (0.1.1)</h3>
+					        </td>
+					   </tr>
+					   <tr>
+					        <td valign="top">
+					            <p>Some minor changes:
+									<ul>
+										<li>A smaller menu bar icon to save some space.</li>
+										<li>Support for the new url field of the Prowl API. </li>
+										<li>Support for new API base url.</li>
+									</ul>
+								</p>
+					        </td>
+					   </tr>
+					</table>
+			    ]]></description>
+			
+         <pubDate>Fr 26 Nov 2010 14:38:12 CET</pubDate>
+         <enclosure url="http://prowlmenu.googlecode.com/files/prowlmenu-0.1.1.dmg" 
+					   sparkle:version="0.1.1" 
+					   sparkle:dsaSignature="MCwCFFEuPZ143SVPSCNNL2dKKBunfokWAhRKSK3gP35y6E8cMXYUUZf0PKOzNg=="
+					   length="4829568" type="application/octet-stream" />
+      </item>
+      <item>
+            <title>Version 0.1 (initial release)</title>
+			    <description><![CDATA[
+					<table style="border: dotted 1px #ccc;" width="100%" border="0" cellspacing="0" cellpadding="0">
+					   <tr>
+					        <td style="background-color: #e6edff;margin: -3px" colspan="2">
+					                <h3>Initial release (0.1)</h3>
+					        </td>
+					   </tr>
+					   <tr>
+					        <td valign="top">
+					            <p>Sends a text message from Mac OS to the Prowl app 
+								on your iPhone. Currently supports:
+									<ul>
+										<li>Copy text from clipboard</li>
+										<li>Send selected text via the services menu</li>
+										<li>Send text via the Applescript interface</li>
+									</ul>
+								</p>
+					        </td>
+					   </tr>
+					</table>
+			    ]]></description>
+			
+            <pubDate>Fr 26 Nov 2010 14:38:12 CET</pubDate>
+            <enclosure url="http://prowlmenu.googlecode.com/files/prowlmenu-0.1.dmg" 
+					   sparkle:version="0.1" 
+					   sparkle:dsaSignature="MCwCFHrEmZDx8lWY57hBPAPjAsa6YHddAhRZeKXHMFqVLrBHEJ70cDY9vChYwA=="
+					   length="4765700" type="application/octet-stream" />
+         </item>
+   </channel>
+</rss>

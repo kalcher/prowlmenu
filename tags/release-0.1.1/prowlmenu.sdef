@@ -1,0 +1,14 @@
+<dictionary xmlns:xi="http://www.w3.org/2003/XInclude">
+  
+    <suite name="prowlmenu commands" code="PROW" description="Terminology for prowlmenu.">
+    
+        <command name="send message" code="PROWmess" description="send a text message to prowlmenu">
+            <cocoa class="prowlmenuAppDelegate"/>
+            <direct-parameter description="a text parameter passed to prowlmenu">
+                <type type="text"/>
+            </direct-parameter>
+        </command>
+         
+    </suite>
+ 
+</dictionary>
