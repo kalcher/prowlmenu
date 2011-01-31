@@ -188,6 +188,8 @@
 		[params addObject:url];
 	}
 	
+	[escapedURLString autorelease];
+	
 	// ... and convert it into a string
 	NSString *post = [params componentsJoinedByString:@"" ];
 	
