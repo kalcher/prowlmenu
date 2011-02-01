@@ -99,6 +99,9 @@
 		
 	description = [copiedItems objectAtIndex:0];
 	[self sendMessage:description];
+	
+	 //  [self sendMessageNotifo:description];
+
 
 }
 
@@ -158,6 +161,8 @@
     }       
 }
 
+
+// Prowl
 - (void)sendMessage:(NSString *)message {
 	
 	// shorten the description string
@@ -174,26 +179,31 @@
 					   // @"&url=",[[NSURL URLWithString:[self urlEncodeString:message]] absoluteString], 
 					   nil ];
 
-
+/*
 	NSString *escapedURLString = NSMakeCollectable(CFURLCreateStringByAddingPercentEscapes(NULL,
 															  (CFStringRef)message,
-															  (CFStringRef)@"%+# ",	// Characters to leave unescaped
+															  (CFStringRef)@"?=&%+# ",	// Characters to leave unescaped
 															  NULL,
 															  kCFStringEncodingUTF8));
-	
-	// try to create an URL from the message string
-	NSURL *url = [NSURL URLWithString:escapedURLString];
-
-	// only fill in the url paramter if an URL was "detected"
-	if(url!=nil) {
-		[params addObject:@"&url="];
-		[params addObject:url];
-	}
-	
 	[escapedURLString autorelease];
+*/
 	
+	// check whether message starts with http
+	// a rather crude check for a valid url
+	NSRange foundRange = [[self urlEncodeString:message] rangeOfString:@"http"];
+	
+	if (foundRange.location == 0) {
+		NSURL *url = [NSURL URLWithString:[self urlEncodeString:message]];
+		if(url!=nil) {
+			[params addObject:@"&url="];
+			[params addObject:url];
+		}
+	}
+		
 	// ... and convert it into a string
 	NSString *post = [params componentsJoinedByString:@"" ];
+	
+	// NSLog(@"%@",post);
 	
 	NSData *postData = [post dataUsingEncoding:NSUTF8StringEncoding allowLossyConversion:YES];
 	

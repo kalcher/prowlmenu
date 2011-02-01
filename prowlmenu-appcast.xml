@@ -6,6 +6,34 @@
       <description>prowlmenu</description>
       <language>en</language>
       <item>
+         <title>Version 0.1.2</title>
+			    <description><![CDATA[
+					<table style="border: dotted 1px #ccc;" width="100%" border="0" cellspacing="0" cellpadding="0">
+					   <tr>
+					        <td style="background-color: #e6edff;margin: -3px" colspan="2">
+					                <h3>Minor update (0.1.1)</h3>
+					        </td>
+					   </tr>
+					   <tr>
+					        <td valign="top">
+					            <p>
+									<ul>
+										<li>Fixed a minor memory leak introduced in 0.1.1</li>
+										<li>Fixed a bug with the new url parameter.</li>
+									</ul>
+								</p>
+					        </td>
+					   </tr>
+					</table>
+			    ]]></description>
+
+         <pubDate>Tue  1 Feb 2011 13:21:16 CET</pubDate>
+         <enclosure url="http://prowlmenu.googlecode.com/files/prowlmenu-0.1.2.dmg" 
+					   sparkle:version="0.1.2" 
+					   sparkle:dsaSignature="MCwCFHlK59YyBLMoKOwD2jcf2l6wlljJAhRrJt1yCutxBHyM8nIqHrm5aMr2uQ=="
+					   length="4770448" type="application/octet-stream" />
+      </item>
+      <item>
          <title>Version 0.1.1</title>
 			    <description><![CDATA[
 					<table style="border: dotted 1px #ccc;" width="100%" border="0" cellspacing="0" cellpadding="0">

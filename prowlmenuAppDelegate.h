@@ -63,6 +63,7 @@
 - (void)displayThirdPartyLicenses:(id)sender;
 
 - (void)sendMessage:(NSString *)message;
+
 - (NSString *)urlEncodeString:(NSString *)str;
 
 - (id)performDefaultImplementation;
