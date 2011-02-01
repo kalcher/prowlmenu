@@ -1,3 +1,7 @@
+= Release 0.1.2 =
+  * Fixed a minor memory leak introduced in 0.1.1
+  * Fixed a bug with the new url parameter.
+
 = Release 0.1.1 =
 Some minor changes:
   * A smaller menu bar icon to save some space.
